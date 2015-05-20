@@ -1,0 +1,21 @@
+body {
+	background-color: #c3fff4;
+}
+
+header {
+	color: #e75f5d;
+}
+
+nav {
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	list-style: none;
+}
+
+section {
+	float: left;
+	display: inline-block;
+	padding: 20px;
+}
+
