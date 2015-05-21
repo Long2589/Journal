@@ -10,34 +10,62 @@ body {
 ul {
 	list-style: none;
 }
+
+footer {
+	font-size: 75%
+}
 /**********************
-HEADING
+HEADER
 **********************/
 
 
-li.contact {
-	display: inline;
-	margin-right: 10px;
+div.column1 {
+	float: left;
+	width: 66%
+	display: inline-block;
 }
 
+div.column2 {
+	float: left;
+	widows: 34%
+	display: inline-block;
+}
 
 /**********************
 BODY
 **********************/
 
 nav {
-	width: 33%;
+	padding: 10px;
+	width: 25%;
 	float: left;
+	border: 1px solid;
 	border-color: #0c5565;
-	border-width: 10px;
+	border-width: thin;
 }
 
 section {
-	width: 67%;
+	padding: 10px;
+	width: 60%;
 	float: left;
+	margin: 10px;
 }
 
 img.small {
 	width: 200px;
 	height: 150px;
+}
+
+article {
+	padding: 10px;
+	margin: 10px;
+}
+
+/**********************
+FOOTER
+**********************/
+
+footer {
+	float: left;
+	min-width: 50%
 }
